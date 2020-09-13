@@ -1,0 +1,120 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - File URLs in stacktrace frames are peekable and clickable.
+clj::clojure-noob.core=> 
+; Creating cljs repl session...
+; Connecting cljs repl: Leiningen + Figwheel Main...
+;   The Calva Connection Log might have more connection progress information.
+; There are no figwheel build files (.cljs.edn) in the project directory.
+; Connection to Figwheel Main aborted.
+; Error while connecting cljs REPL: Aborted
+; Jack-in done.
+10
+clj::clojure-noob.core=> 
+NameHyun
+nil
+clj::clojure-noob.core=> 
+"NameHyun"
+clj::clojure-noob.core=> 
+#'clojure-noob.core/-main
+clj::clojure-noob.core=> 
+#'clojure-noob.core/-main
+clj::clojure-noob.core=> 
+#'clojure-noob.core/-main
+clj::clojure-noob.core=> 
+#'clojure-noob.core/-main
+clj::clojure-noob.core=> 
+#'clojure-noob.core/-main
+clj::clojure-noob.core=> 
+"NameHyun"
+clj::clojure-noob.core=> 
+#'clojure-noob.core/-main
+clj::clojure-noob.core=> 
+#'clojure-noob.core/-main
+clj::clojure-noob.core=> 
+"NameHyun"
+clj::clojure-noob.core=> 
+Hello, foo
+"NameHyun"
+clj::clojure-noob.core=> 
+No input provided.
+Hello, 
+"NameHyun"
+clj::clojure-noob.core=> 
+Hello, foo
+"NameHyun"
+clj::clojure-noob.core=> 
+Hello, do
+"Nameclojure.core$name@3b67ebeb"
+clj::clojure-noob.core=> 
+Hello, doo
+#function[clojure.core/name]
+clj::clojure-noob.core=> 
+10
+nil
+; WARNING: double already refers to: #'clojure.core/double in namespace: clojure-noob.core, being replaced by: #'clojure-noob.core/double
+clj::clojure-noob.core=> 
+10
+nil
+clj::clojure-noob.core=> 
+; Syntax error reading source at (REPL:188:14).
+; Unmatched delimiter: )
+[{:file "jar:file:/Users/hyun/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:433" :fn "repl/read-eval-print/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/Users/hyun/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:432" :fn "repl/read-eval-print"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/Users/hyun/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:458" :fn "repl/fn"  :method "invoke" :flags [:clj]}
+ {:file "jar:file:/Users/hyun/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar!/clojure/main.clj:458" :fn "repl"  :method "invokeStatic" :flags [:dup :clj]}
+ {:file "jar:file:/Users/hyun/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:119" :fn "evaluate"  :method "invokeStatic" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/hyun/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/interruptible_eval.clj:153" :fn "interruptible-eval/fn/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "jar:file:/Users/hyun/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:190" :fn "session-exec/main-loop/fn"  :method "invoke" :flags [:tooling :clj]}
+ {:file "jar:file:/Users/hyun/.m2/repository/nrepl/nrepl/0.7.0/nrepl-0.7.0.jar!/nrepl/middleware/session.clj:189" :fn "session-exec/main-loop"  :method "invoke" :flags [:tooling :clj]}
+ {:file "AFn.java" :line 22 :method "run" :flags [:java]}
+ {:file "Thread.java" :line 830 :method "run" :flags [:java]}]
+clj::clojure-noob.core=> 
+10
+clj::clojure-noob.core=> 
+true
+clj::clojure-noob.core=> 
+30
+clj::clojure-noob.core=> 
+60
+clj::clojure-noob.core=> 
+#'clojure-noob.core/double
+clj::clojure-noob.core=> 
+30
+clj::clojure-noob.core=> 
+20
+clj::clojure-noob.core=> 
+30
+clj::clojure-noob.core=> 
+20
+clj::clojure-noob.core=> 
+#'clojure-noob.core/triple
+clj::clojure-noob.core=> 
+#'clojure-noob.core/double
+clj::clojure-noob.core=> 
+30
+clj::clojure-noob.core=> 
+20
+clj::clojure-noob.core=> 
+#'clojure-noob.core/-main
+clj::clojure-noob.core=> 
+#'clojure-noob.core/triple
+clj::clojure-noob.core=> 
+20
+clj::clojure-noob.core=> 
+30
+clj::clojure-noob.core=> 
