@@ -68,4 +68,8 @@
     (dotimes [i (count inven)]
       (println (get (get inven i) :name))))
 
-  (print-item-list inventory))
+  (print-item-list inventory)
+  
+  
+  
+  )
